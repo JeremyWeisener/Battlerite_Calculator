@@ -1,0 +1,15 @@
+Skills:
+Image
+        if tag == "img":
+            for(key, value) in attrs:
+                if key == "width" and value == "68":
+                    for(key2, value2) in attrs:
+                        if key2 == "src":
+                            print("OMG IT WORKS!!", value2)
+
+Skill Title
+        if tag == "div":
+            for(key, value) in attrs:
+                if key == "class" and value == "ability--title":
+                    print ("SKILL NAME IS:", data)
+
